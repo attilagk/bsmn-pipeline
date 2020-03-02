@@ -121,6 +121,7 @@ fi
 unset DIR URL
 
 # Installing vt
+if false; then
 DIR=$WD/tools/vt/2018-06-07
 URL="http://github.com/atks/vt/archive/ee9f613.tar.gz"
 if [[ ! -f $DIR/installed ]]; then
@@ -134,6 +135,7 @@ if [[ ! -f $DIR/installed ]]; then
     touch $DIR/installed
 fi
 unset DIR URL
+fi
 
 # Installing root
 # prerequisite cmake > 3.4.3
